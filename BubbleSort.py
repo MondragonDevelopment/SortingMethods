@@ -1,6 +1,6 @@
 # O(n^2) Time | O(1) Space
 
-def bubbleSort(array):
+def bubbleSort(array):                                          # Called this way because elements tend to move up into the correct order like bubbles rising to the surface
     sorted = False
     counter = 0
     while not sorted:
