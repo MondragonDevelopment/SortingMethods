@@ -1,6 +1,6 @@
 # O(n^2) Time | O(1) Space
 
-def selSort(array):
+def selSort(array):                                                         # This algorithm is more like antibubble (rock?) algorithm
     counter = 0
     while counter < len(array) - 1:
         smallest = counter
@@ -11,7 +11,7 @@ def selSort(array):
         counter += 1
     return array
 
-def selSort2(array):
+def selSort2(array):                                                        # This actually selects the largest number in the array and puts it in place each time
     for i in range(len(array) - 1, 0, -1):
         greatest = i
         for j in range(i):
